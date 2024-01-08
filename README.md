@@ -33,6 +33,10 @@
 - TMDB Image CDN URL
 - Tailwind CSS (for Browsing Page)
 - Used Custom Hooks
+- GTP Search Page
+- GTP Search Bar
+- Multi-Language Feature
+- Integrate GPT APIs
 
 # Features
 - Login/SignUp
