@@ -26,7 +26,7 @@
 - Fetch data for trailer video
 - Update store with trailer video data
 - Embedded the Youtube video and make it autoplay and mute
-- Apply TailwindCSS to make it(Main Container) look exactly like netflix browse page
+- Apply TailwindCSS to make it(Main Container) look exactly    like netflix browse page
 - Build Secondary Component
 - Build Movie List
 - Build Movie Card
@@ -37,6 +37,12 @@
 - GTP Search Bar
 - Multi-Language Feature
 - Integrate GPT APIs
+- Open AI API Key
+- Get search API call
+- Fetch Moviesuggestions from TMDB Movies
+- Created gptSlice to add data
+- Memoization
+- Made Site Responsive
 
 # Features
 - Login/SignUp

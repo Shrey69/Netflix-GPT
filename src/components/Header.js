@@ -54,14 +54,14 @@ const handleLanguageChange = (e) => {
   }, []); 
 
   return (
-   <div className="absolute w-full px-8 py-2 bg-gradient-to-b from-black z-10  flex justify-between">
+   <div className="absolute w-full px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row flex justify-between">
     <img
-    className=' w-52   '
+    className=' w-36 md:w-52 mx-auto md:mx-0  '
     src= {LOGO}
     alt='Logo' 
    />
-  {user && <div className='flex p-2 '>
-    {showGptSearch && <select className='p-2 m-4 font-semibold bg-gray-900 text-white rounded-lg' onChange={handleLanguageChange}>
+  {user && <div className='flex p-2 justify-between'>
+    {showGptSearch && <select className='p-2  m-4 font-semibold bg-gray-900 text-white rounded-lg' onChange={handleLanguageChange}>
       {LANGUAGES.map((lang) => (
            <option key={lang.identifier} value={lang.identifier}>{lang.name}</option>
       ))}
@@ -70,9 +70,10 @@ const handleLanguageChange = (e) => {
     </select>}
     <button
     onClick={handleToggleGptSearch}
-    className='py-2 px-4 my-4 font-semibold mx-4 bg-purple-800 text-white rounded-lg'>
+    className='py-2 px-2 md:px-4 my-2 md:my-4 font-semibold mx-4 bg-purple-800 text-white rounded-lg'>
       {showGptSearch ? "Home Page":"GPT Search"}</button>
-    <img className='w-14 h-14'
+      
+    <img className='hidden md:block w-12  md:w-14  h-12 md:h-14'
     alt='userIcon'
      src= {USER_ICON}
     />

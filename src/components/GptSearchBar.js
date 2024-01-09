@@ -42,10 +42,10 @@ const searchMovieTMDB = async (movie) => {
           
     }
   return (
-    <div className='pt-[10%] flex justify-center'>
+    <div className='pt-[45%] md:pt-[10%] flex justify-center'>
         <form
        
-         className='bg-black grid grid-cols-12 w-1/2' onSubmit={(e)=>e.preventDefault()}>
+         className='bg-black grid grid-cols-12 w-full md:w-1/2' onSubmit={(e)=>e.preventDefault()}>
             <input className='p-4 m-4 col-span-9' 
              ref={searchText}
              placeholder={lang[langKey].gptSearchPlaceholder} type='text' />
