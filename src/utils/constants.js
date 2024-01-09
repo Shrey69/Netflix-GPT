@@ -16,4 +16,6 @@ export const API_OPTIONS = {
 
   export const LANGUAGES = [{identifier: "en", name: "English"},
                             {identifier: "hindi", name: "Hindi"},
-                            {identifier: "spanish", name: "Spanish"}]
+                            {identifier: "spanish", name: "Spanish"}];
+
+  export const OPEN_AI_KEY ="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"                            
