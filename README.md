@@ -1,3 +1,5 @@
+# Deployed Link - https://cinegemini-6f3e3.web.app/
+
 # Netflix-GPT
 
 - Create React app
